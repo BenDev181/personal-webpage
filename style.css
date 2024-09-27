@@ -3,10 +3,12 @@
 }
 
 body {
+  background-image: url("https://codingweek.org/wp-content/uploads/2023/09/chris-ried-ieic5Tq8YMk-unsplash-scaled.jpg");
   background-color: #222;
   color: whitesmoke;
   min-height: 100vh;
   line-height: 1.5;
+  font-weight: bolder;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
@@ -40,6 +42,11 @@ img {
 nav {
   display: flex;
   justify-content: flex-end;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgb(0, 57, 93);
+  margin: 0;
 }
 
 nav a {
@@ -54,21 +61,76 @@ nav a:hover {
   text-decoration: underline;
 }
 
-
-[aria-current="page"] {
-  text-decoration: underline;
+.job-title {
+  color: rgb(0, 57, 93);
 }
 
 #home-placeholder {
   float: right;;
 }
 
+#exp-button {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  background-color: transparent;
+  color: rgb(0, 57, 93);
+  border: none;
+}
+
 .home-quotes {
   font-size: 1.5rem;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 .home-quote2 {
   width: 1000px;
   padding-left: 3rem;
+}
+
+.bio-heading {
+  text-align: center;
+}
+
+.bio-text {
+  font-size: 2rem;
+  margin: 0 auto;
+  text-align: center;
+  width: 1000px;
+  padding-top: 2rem;
+
+}
+
+#bio-placeholder {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.exp-title {
+  margin-top: -0.25rem;
+  margin-bottom: -3rem;
+}
+
+.exp-logo {
+  float:right;
+}
+
+.exp-heading {
+  color: rgb(0, 57, 93);
+  font-size: 3.5rem;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+.exp-desc {
+  font-size: 1.5rem;
+}
+
+
+footer {
+  background-color: rgb(0, 57, 93);
+  margin: 0;
+  padding-bottom: 3rem;
 }
