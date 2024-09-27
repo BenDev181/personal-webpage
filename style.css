@@ -21,6 +21,18 @@ h6 {
   text-wrap: balance;
 }
 
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5 rem;
+}
+
 img {
   max-width: 100%;
 }
@@ -45,4 +57,18 @@ nav a:hover {
 
 [aria-current="page"] {
   text-decoration: underline;
+}
+
+#home-placeholder {
+  float: right;;
+}
+
+.home-quotes {
+  font-size: 1.5rem;
+  padding-top: 50px;
+}
+
+.home-quote2 {
+  width: 1000px;
+  padding-left: 3rem;
 }
